@@ -1,11 +1,6 @@
 name: CI Build
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,4 +17,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
+      - run: npm lint
       - run: npm test
