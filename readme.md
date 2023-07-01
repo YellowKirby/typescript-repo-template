@@ -8,5 +8,5 @@ Repository template for Typescript with configs and tools I like:
 
 ## Branches
 
-- [`main`](/tree/main): targets backend/Node projects
-- [`frontend`](/tree/frontend): targets webapp projects
+- [`main`](https://github.com/YellowKirby/typescript-repo-template/tree/main): targets backend/Node projects
+- [`frontend`](https://github.com/YellowKirby/typescript-repo-template/tree/frontend): targets webapp projects
